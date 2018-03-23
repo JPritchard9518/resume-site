@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Avenir Next;
+}
+@font-face{
+  font-family: 'Avenir Next';
+  src: local('Avenir Next'), url('../fonts/AvenirNextLTPro-Regular.otf') format('otf');
+}
+@font-face{
+  font-family: 'Avenir Next Light';
+  src: local('Avenir Next Light'), url('../fonts/AvenirNext-UltraLight.otf')
+}
+@font-face{
+  font-family: 'Avenir Next Short';
+  src: local('Avenir Next Short'), url('../fonts/AvenirNextShort.otf')
+}
+@font-face{
+  font-family: 'Avenir Next Bold';
+  src: local('Avenir Next Bold'), url('../fonts/AvenirNextBold.otf') format('otf')
+}

@@ -1,0 +1,108 @@
+.Hobbies{
+    min-height: 540px;
+}
+.Hobbies .backgroundImageContainer{
+    min-height: 540px;
+    width: 100%;
+    background: linear-gradient(
+        RGBA(190, 106, 108, .55),
+        RGBA(190, 106, 108, .55)
+    ),
+    url('/assets/images/michal-parzuchowski-37537-unsplash.jpg');
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    /* background-image: url('/assets/images/michal-parzuchowski-37537-unsplash.jpg');
+    background-repeat: no-repeat; */
+    background-size: cover;
+}
+.Hobbies .backgroundImage{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.Hobbies .header{
+    padding-top: 46px;
+    margin: 0;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.Hobbies hr{
+    background-color: #FFF;
+    width: 42px;
+    border: 1px solid #FFF;
+    margin-top: 26px;
+}
+.Hobbies .iconsContainer{
+    max-width: 815px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.Hobbies .iconRow{
+    /* max-width: 600px; */
+}
+.Hobbies .columnRow{
+    margin: 0 auto;
+}
+.Hobbies .hobbyContainer{
+    /* position: absolute; */
+    /* width: 300px; */
+    height: 200px;
+    /* position: relative; */
+    /* left: 20%; */
+    text-align: center;
+}
+.Hobbies .iconContainer{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+/* .Hobbies .secondRow{
+    left: 10%
+} */
+.Hobbies .hobbyIcon{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: -184px;
+    top: -248px;
+}
+.Hobbies .iconTitle{
+    font-size: 30px;
+    color: #FFF;
+    text-transform: uppercase;
+    /* position: absolute;
+    bottom: 0; */
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    /* transform: translateX(50%) */
+}
+.Hobbies .fishing{
+    /* width: 300px;
+    height: 300px;
+    position: relative; */
+    /* top: -200px;
+    left: -200px; */
+}
+.Hobbies .traveling .hobbyIcon{
+    top: -199px;
+    left: -198px;
+}
+.Hobbies .camping .hobbyIcon{
+    top: -186px;
+    left: -200px;
+}
+.Hobbies .backpacking .hobbyIcon{
+    top: -195px;
+    left: -210px;
+}
+.Hobbies .reading .hobbyIcon{
+    top: -175px;
+    left: -193px;
+}
+.Hobbies .woodWorking .hobbyIcon{
+    top: -200px;
+    left: -200px;
+}

@@ -1,0 +1,29 @@
+.Bio{
+    width: 100%;
+    /* background-color: #1E1E1E; */
+    /* color: #FEFEFE; */
+    /* text-align: center; */
+    /* font-size: 20px; */
+    position: relative;
+    margin-top: -110px;
+    /* height: 555px; */
+    background-color: #FFF;
+    padding-top: 89px;
+    /* REMOVE MARGIN-TOP */
+}
+
+.Bio hr{
+    width: 47px;
+    border-bottom: 1px solid #000;
+}
+
+.aboutMeText{
+    text-align: left;
+    padding: 30px;
+    font-size: 17px;
+    color: #B0B1B3;
+    font-family: 'Avenir Next Light';
+    letter-spacing: .05em;
+    line-height: 1.1em;
+    max-width: 650px;
+}

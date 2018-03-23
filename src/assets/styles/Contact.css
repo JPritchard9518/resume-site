@@ -1,0 +1,133 @@
+.Contact{
+    min-height: 490px;
+    overflow: hidden;
+    position: relative;
+}
+.Contact .backgroundText{
+    color: #E4E5E6;
+    font-size: 200px;
+    position: relative;
+    font-family: 'Avenir Next Short';
+    top: -55px;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+}
+.Contact hr{
+    background-color: #000;
+    width: 42px;
+    border: 1px solid #000;
+    margin-top: 26px;
+    position: relative;
+}
+.Contact .header{
+    position: relative;
+    padding-top: 46px;
+    margin: 0;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+.Contact .paragraph{
+    position:relative;
+    font-size: 25px;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 30px;
+}
+.Contact .column{
+    padding-top: 11px;
+    /* float: right; */
+    /* width: 412px; */
+    /* font-family: 'Oswald', sans-serif; */
+    font-size: 25px;
+    letter-spacing: .12em;
+    font-family: 'Avenir Next';
+    
+    
+    /* text-align: right; */
+}
+
+.Contact .column.left{
+    float: right;
+    /* padding-left: 340px; */
+    text-align: center;
+    padding-right: 44px;
+    letter-spacing: .09em;
+}
+.Contact .column.right{
+    text-align: center;
+    /* padding-left: 42px; */
+    /* margin: 0 auto; */
+    padding: 15px;
+    z-index: 0;
+}
+.Contact .socialRow{
+    background-color: #E5E5E5;
+    /* display: inline-block; */
+}
+.Contact .socialIcon{
+    display:inline-block;
+    padding: 20px;
+}
+.Contact .phone{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-top: -344px;
+    margin-left: -186px;
+}
+.Contact .email{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-top: -118px;
+    margin-left: -453px;
+}
+.Contact .facebook{
+    width: 1500px;
+    height: 1500px;
+    position: relative;
+    margin-top: -1034px;
+    margin-left: -512px;
+}
+.Contact .instagram{
+    width: 1500px;
+    height: 1500px;
+    position: relative;
+    margin-top: -727px;
+    margin-left: -1452px;
+}
+.Contact .linkedIn{
+    width: 1500px;
+    height: 1500px;
+    position: relative;
+    margin-top: -630px;
+    margin-left: -1448px;
+}
+.facebook, .instagram, .linkedIn, .email{
+    cursor: pointer;
+}
+.Contact .workRowSmall .emailAddress{
+    font-size: 20px;
+    overflow: hidden;
+}
+.Contact .backgroundText1{
+    color: #E4E5E6;
+    font-size: 160px;
+    position: absolute;
+    font-family: 'Avenir Next Short';
+    top: -41px;
+    left: -25%;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+}
+.Contact .backgroundText2{
+    color: #E4E5E6;
+    font-size: 160px;
+    position: absolute;
+    font-family: 'Avenir Next Short';
+    bottom: 35px;
+    right: -17%;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+}

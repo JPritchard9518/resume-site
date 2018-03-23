@@ -1,0 +1,176 @@
+.WorkHistory{
+    /* height: 1200px; */
+    overflow: hidden;
+    background-color: #4B5464;
+}
+
+.WorkHistory p{
+    color: #FFF;
+}
+
+.WorkHistory .header{
+    padding-top: 46px;
+    margin: 0;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+
+.WorkHistory hr{
+    background-color: #FFF;
+    width: 42px;
+    border: 1px solid #FFF;
+    margin-top: 26px;
+}
+
+.WorkHistory .backgroundText{
+    color: #535C6A;
+    font-size: 200px;
+    transform: rotate(90deg);
+    position: relative;
+    font-family: 'Avenir Next Short';
+    left: 370px;
+    top: 465px;
+    letter-spacing: .03em;
+    white-space: nowrap;
+}
+
+.WorkHistory .workRow{
+    padding: 30px 200px 0 200px;
+    z-index: 1;
+    
+}
+.WorkHistory .workRowSmall{
+    z-index: 1;
+    padding-top: 30px;
+}
+
+.WorkHistory .workName{
+    font-size: 20px;
+    overflow: hidden;
+    text-transform: uppercase;
+    /* width: 80% */
+}
+.WorkHistory .workLocation{
+    font-size: 20px;
+    padding-top: 16px;
+    letter-spacing: .08em;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+.WorkHistory .workTimeFrame{
+    font-size: 20px;
+    letter-spacing: .08em;
+    font-weight: 100;
+}
+
+.WorkHistory .jobTitle{
+    font-weight: 100;
+    font-size: 20px;
+    word-spacing: -.18em;
+    letter-spacing: .13em;
+}
+.WorkHistory .description{
+    font-weight: 100;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.WorkHistory .column{
+    padding-top: 11px;
+    /* float: right; */
+    /* width: 412px; */
+    /* font-family: 'Oswald', sans-serif; */
+    font-size: 25px;
+    letter-spacing: .12em;
+    font-family: 'Avenir Next';
+    
+    
+    /* text-align: right; */
+}
+
+.WorkHistory .column.left{
+    float: right;
+    /* padding-left: 340px; */
+    text-align: right;
+    padding-right: 44px;
+    font-weight: 600;
+    letter-spacing: .09em;
+}
+.WorkHistory .column.right{
+    text-align: left;
+    padding-left: 42px;
+    z-index: 0;
+}
+
+.WorkHistory .projectRow{
+    z-index: 1;
+    /* padding-top: 30px; */
+}
+
+.WorkHistory .projectTile{
+    width: 250px;
+    height: 250px;
+    background-color: #FFF;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+.WorkHistory .projectTile .hoverTile{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.80);
+    position: absolute;
+    z-index:2;
+    opacity:0;
+    left:1;
+    vertical-align:middle;
+    display:table;
+    -webkit-transition: opacity .25s; /* Safari */
+    transition: opacity .25s;
+    font-size:40px;
+    padding:10px;
+}
+.WorkHistory .projectTile .hoverTile:hover{
+    opacity:1;
+}
+.WorkHistory .projectTile .hoverTileText{
+    display:table-cell;
+    vertical-align:middle;
+}
+.WorkHistory .tileImage{
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+.modalImage{
+    width:50%;
+    display: block;
+    margin: 0 auto;
+}
+.modal-content{
+    border-radius: 0;
+}
+.lngTile{
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+.resumeDownload{
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display:inline-block;
+    color: #000
+}
+.resumeDownload:hover{
+    text-decoration: none;
+}

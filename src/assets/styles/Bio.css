@@ -1,0 +1,79 @@
+.Bio{
+    width: 100%;
+    /* background-color: #1E1E1E; */
+    /* color: #FEFEFE; */
+    /* text-align: center; */
+    /* font-size: 20px; */
+    position: relative;
+    overflow: hidden;
+
+    /* margin-top: -50px; */
+
+
+    /* margin-top: -110px; */
+    /* height: 555px; */
+    background-color: #FFF;
+    padding-top: 89px;
+    /* REMOVE MARGIN-TOP */
+}
+
+.Bio hr{
+    width: 47px;
+    border-bottom: 1px solid #000;
+}
+.headshotContainer{
+    border-radius: 100px;
+    background-color: #000;
+    margin: 0 auto;
+    border: 3px solid #B76666;
+    background: url('/assets/images/Justin Headshot_02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 41%;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    transform: scale(1);
+    transition: all .25s ease-in-out;
+}
+.headshotContainer:hover{
+    height: 275px;
+    width: 275px;
+    border-radius: 150px;
+}
+.aboutMeText{
+    text-align: left;
+    padding: 30px;
+    font-size: 17px;
+    color: #000;
+    font-weight: 900;
+    font-family: 'Avenir Next Light';
+    letter-spacing: .05em;
+    line-height: 1.2em;
+    max-width: 650px;
+    margin: 0 auto;
+    z-index: 20;
+}
+.Bio .header{
+    position: relative;
+}
+.Bio .backgroundText1{
+    color: #E4E5E6;
+    font-size: 160px;
+    position: absolute;
+    font-family: 'Avenir Next Short';
+    top: -42px;
+    left: -33%;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+}
+.Bio .backgroundText2{
+    color: #E4E5E6;
+    font-size: 160px;
+    position: absolute;
+    font-family: 'Avenir Next Short';
+    bottom: -83px;
+    left: 50%;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+}

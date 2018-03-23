@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+hr{
+    border-top: 1px solid #50514F;
+}
+.image-container {
+  width: 100%;
+  max-height: 677px;
+  overflow: hidden;
+}
+.header-logo {
+  width:100%;
+  /* max-width: 1200px; */
+}
+
+.App-header {
+  /* background-color: #1E1E1E; */
+  width: 100%;
+  position: relative;
+  display: block;
+  max-height: 862px;
+  /* Should remove max-height eventually */
+}
+.sticky-header{
+  z-index: 20;
+  top:0px;
+  height: 50px;
+  vertical-align:middle;
+  display:table;
+  width:100%;
+  box-shadow: 0px -10px 40px;  
+}
+.sticky-header-text{
+  display: table-cell;
+  vertical-align:middle;
+  font-size: 20px;
+}
+.App-footer{
+  width: 100%;
+  color: #FFF;
+  padding: 25px;
+  font-size: 20px;
+}
+.footerLogo{
+  width: 50px;
+  height: 50px;
+  margin: 0 0 25px 0;
+}
+.sectionHeaderText{
+  padding: 20px;
+  margin: 0;
+  font-size: 30px;
+}
+.headerLogoText{
+  text-transform: uppercase;
+  position: absolute;
+  top: 65%;
+  /* left: 50%; */
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-size: 21px;
+  color: #FFF;
+  letter-spacing: .18em;
+  font-family: Avenir Next Light;
+  padding-left: 22px;
+  word-spacing: -.04em;
+}
+
+.header{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: .06em;
+}
+
+.row{
+  margin-right: 0px !important;
+}

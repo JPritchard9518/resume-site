@@ -1,0 +1,55 @@
+.WhatIDo{
+    background-color: #BF6A6B;
+    position: relative;
+}
+.WhatIDo .backgroundImageContainer{
+    min-height: 455px;
+    width: 100%;
+    background: linear-gradient(
+        RGBA(190, 106, 108, .65),
+        RGBA(190, 106, 108, .65)
+    ),
+    url('/assets/images/rayi-christian-wicaksono-366-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+.WhatIDo .header{
+    color: #FFF;
+    padding-top: 40px;
+    margin: 0;
+}
+.WhatIDo hr{
+    background-color: #FFF;
+    width: 47px;
+    border: 1px solid #FFF;
+    margin-top: 15px;
+}
+.WhatIDo .iconRow{
+    padding: 10px 0px 43px 0px;
+}
+.WhatIDoIcon{
+    width: 184px;
+    /* box-shadow: 5px 5px 50px; */
+    -webkit-transition: width .25s; /* Safari */
+    transition: width .25s;
+}
+.WhatIDoIcon:hover{
+    width:250px;
+}
+/* .WhatIDoIcon{
+    width: 173px;
+} */
+.WhatIDo .iconTitle{
+    color: #FFF;
+    font-size: 23px;
+    padding-top: 22px;
+    letter-spacing: .17em;
+    padding-left: 8px;
+}
+.WhatIDo .left{
+    padding-left: 8px;
+}
+.WhatIDo .right{
+    padding-left: 36px;
+}
