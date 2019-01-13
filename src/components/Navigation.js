@@ -10,30 +10,30 @@ require("react-bootstrap/lib/NavbarHeader")
 
 
 class Navigation extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
-            navStyle:{}
+            navStyle: {}
         }
     }
     componentDidMount() {
         // debugger;
         // scrollToComponent(this.Blue, { offset: 0, align: 'middle', duration: 500, ease: 'inCirc' });
     }
-    componentWillReceiveProps(){
-        var navStyle={};
+    componentWillReceiveProps() {
+        var navStyle = {};
         navStyle.opacity = navStyle.backgroundColor = 'RGBA(28, 44, 56,' + this.props.navOpacity + ')';
-        if(this.props.sticky){
+        if (this.props.sticky) {
             navStyle.position = 'fixed';
             navStyle.top = '0px';
         }
-        this.setState({navStyle:navStyle})
+        this.setState({ navStyle: navStyle })
     }
-    scrollTo(ref){
+    scrollTo(ref) {
         scrollToComponent(ref, { offset: -65, align: 'top', duration: 1000 })
     }
     render() {
-        if(this.props.bootstrapBreakpoint !== 'xs'){
+        if (this.props.bootstrapBreakpoint !== 'xs') {
             return (
                 <div className="Navigation" id="Navigation" style={this.state.navStyle}>
                     <nav>
@@ -42,8 +42,9 @@ class Navigation extends Component {
                         </div>
                         <div className="navListContainer">
                             <ul className="navList">
-                                
+
                                 <li className="navItem" onClick={() => this.scrollTo(this.props.bio)}>ABOUT</li>
+                                <li className="navItem" onClick={() => this.scrollTo(this.props.adventure)}>ADVENTURE</li>
                                 <li className="navItem" onClick={() => this.scrollTo(this.props.whatIDo)}>WHAT I DO</li>
                                 <li className="navItem" onClick={() => this.scrollTo(this.props.skills)}>SKILLS</li>
                                 <li className="navItem" onClick={() => this.scrollTo(this.props.workHistory)}>WORK HISTORY</li>
@@ -55,20 +56,20 @@ class Navigation extends Component {
                     </nav>
                 </div>
             );
-        }else{
-            return(
+        } else {
+            return (
                 <div className="Navigation" id="Navigation" style={this.state.navStyle}>
                     <Navbar style={{ backgroundColor: this.state.navStyle.backgroundColor }}>
                         <Navbar.Toggle style={{ float: 'left', width: '100%', height: '65px' }} >
                             {/* <button type="button" style={{width: '100%'}} className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> */}
-                                <span className="sr-only">Toggle navigation</span>
-                                <span className="icon-bar top-bar"></span>
-                                <span className="icon-bar middle-bar"></span>
-                                <span className="icon-bar bottom-bar"></span>
+                            <span className="sr-only">Toggle navigation</span>
+                            <span className="icon-bar top-bar"></span>
+                            <span className="icon-bar middle-bar"></span>
+                            <span className="icon-bar bottom-bar"></span>
                             {/* </button> */}
-                            <p className="navTitle" style={{opacity:this.props.navOpacity}}>JUSTIN PRITCHARD</p>
+                            <p className="navTitle" style={{ opacity: this.props.navOpacity }}>JUSTIN PRITCHARD</p>
                         </Navbar.Toggle>
-                        
+
                         <Navbar.Collapse id="navbar" style={{ backgroundColor: 'RGB(28, 44, 56)' }}>
                             <Nav>
                                 <li onClick={() => this.scrollTo(this.props.top)}><img alt="NavigationLogo" className="navLogoCondensed" src='./assets/images/logoWhite.png' /></li>

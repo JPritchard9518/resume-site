@@ -78,3 +78,12 @@ hr{
 .row{
   margin-right: 0px !important;
 }
+.footerLink{
+  text-decoration:none;
+  color:#FFF
+}
+.footerLink:hover{
+  text-decoration:none;
+  color:#FFF;
+  opacity:.75
+}

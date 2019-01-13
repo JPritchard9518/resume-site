@@ -54,6 +54,45 @@
     margin: 0 auto;
     z-index: 20;
 }
+.myFamilyContainer{
+    border-radius: 100px;
+    background-color: #000;
+    margin: 0 auto;
+    border: 3px solid #625A9D;
+    background: url('/assets/images/wedding.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    transform: scale(1);
+    transition: all .25s ease-in-out;
+}
+.myFamilyContainer:hover{
+    height: 275px;
+    width: 275px;
+    border-radius: 150px;
+}
+.kylieContainer{
+    border-radius: 100px;
+    background-color: #000;
+    margin: 0 auto;
+    border: 3px solid #5A6343;
+    background: url('/assets/images/kylie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 41%;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    transform: scale(1) rotate(90deg);
+    transition: all .25s ease-in-out;
+}
+.kylieContainer:hover{
+    height: 275px;
+    width: 275px;
+    border-radius: 150px;
+}
 .Bio .header{
     position: relative;
 }

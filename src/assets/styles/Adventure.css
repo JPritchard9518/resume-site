@@ -1,0 +1,47 @@
+.Adventure{
+    /* min-height: 540px; */
+    position: relative;
+    /* overflow: hidden; */
+    /* height: 500px; */
+}
+.Adventure .backgroundImageContainer{
+    min-height: 540px;
+    width: 100%;
+    background: linear-gradient(
+        RGBA(90, 99, 67, .55),
+        RGBA(90, 99, 67, .55)
+    ),
+    url('/assets/images/adventure.jpeg');
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    /* background-image: url('/assets/images/michal-parzuchowski-37537-unsplash.jpg');
+    background-repeat: no-repeat; */
+    background-size: cover;
+}
+.Adventure .backgroundImage{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.Adventure .header{
+    padding-top: 46px;
+    margin: 0;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.Adventure .image:hover{
+    cursor:pointer;
+    opacity: .85
+}
+
+.Adventure .aboutMeText{
+    text-align: left;
+    padding: 30px;
+    font-size: 17px;
+    color: #FFF;
+    font-family: 'Avenir Next Light';
+    letter-spacing: .05em;
+    line-height: 1.2em;
+    max-width: 700px;
+}

@@ -7,61 +7,58 @@ var skills = [
     {
         name: 'javascript',
         score: 4
-    },{
+    }, {
         name: 'html',
         score: 4
-    },{
-        name: 'css',
+    }, {
+        name: 'react-native',
         score: 4
-    },{
-        name: 'pug',
-        score: 4
-    },{
+    }, {
         name: 'mongodb',
         score: 4
-    },{
+    }, {
         name: 'node.js',
         score: 3.5
-    },{
+    }, {
+        name: 'css',
+        score: 3.5
+    }, {
         name: 'react',
         score: 3.5
-    },{
-        name: 'react-native',
-        score: 3.5
-    },{
+    }, {
         name: 'express',
         score: 3.5
-    },{
+    }, {
         name: 'git',
         score: 3.5
-    },{
-        name: 'google analytics',
-        score: 3
-    },{
-        name: 'excel',
+    }, {
+        name: 'elasticsearch/kibana',
+        score: 3.5
+    }, {
+        name: 'iOS',
         score: 3
     }, {
+        name: 'google analytics',
+        score: 3
+    },/*{
+        name: 'excel',
+        score: 3
+    }, */{
         name: 'AWS',
-        score: 2.5,
+        score: 3,
+    }, {
+        name: 'Docker',
+        score: 2.5
     }, {
         name: 'C++',
         score: 2.5
-    },{
-        name: 'Linux',
-        score: 2
-    },{
-        name: 'salesforce',
-        score: 2
-    },{
-        name: 'facebook api',
-        score: 2
     }
 ]
 
 class Skills extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
-        this.state={
+        this.state = {
             rowStylingLeft: {},
             rowStylingRight: {},
             skillNameColStyle: {},
@@ -76,29 +73,29 @@ class Skills extends Component {
         this.skillHoverEnter = this.skillHoverEnter.bind(this);
         this.skillHoverLeave = this.skillHoverLeave.bind(this);
     }
-    componentWillReceiveProps(){
+    componentWillReceiveProps() {
         var rowStylingLeft = {};
         var rowStylingRight = {};
         var skillNameColStyle = {};
-        if(['md','lg'].indexOf(this.props.bootstrapBreakpoint) > -1){
+        if (['md', 'lg'].indexOf(this.props.bootstrapBreakpoint) > -1) {
             rowStylingLeft.width = '81%';
             rowStylingLeft.float = 'right';
             rowStylingRight.width = '81%';
             rowStylingRight.float = 'left';
             skillNameColStyle = { paddingLeft: '50px', textAlign: 'left' }
         }
-        this.setState({rowStylingLeft:rowStylingLeft, rowStylingRight:rowStylingRight, skillNameColStyle: skillNameColStyle})
+        this.setState({ rowStylingLeft: rowStylingLeft, rowStylingRight: rowStylingRight, skillNameColStyle: skillNameColStyle })
     }
     skillHoverEnter(skill) {
-        this.setState({activeSkill:skill, activeCircleStyling: {width: '25px', height: '25px'}})
+        this.setState({ activeSkill: skill, activeCircleStyling: { width: '25px', height: '25px' } })
     }
-    skillHoverLeave(skill){
-        this.setState({activeSkill: '', activeCircleStyling: {}})
+    skillHoverLeave(skill) {
+        this.setState({ activeSkill: '', activeCircleStyling: {} })
     }
-    getDots(name, score){
-        if(score > .5)
+    getDots(name, score) {
+        if (score > .5)
             return (<div className="circle full-circle"></div>)
-        if(score === .5){
+        if (score === .5) {
             return (<div className="halfCircleContainer">
                 <div className="left"></div>
                 <div className="right"></div>
@@ -106,24 +103,24 @@ class Skills extends Component {
         }
         return (<div className="circle empty-circle"></div>)
     }
-    renderSkill(skill, side){
+    renderSkill(skill, side) {
         var score = skill.score;
         return (<div key={skill.name} ref={skill.name} className="skillItemContainer" onMouseEnter={() => this.skillHoverEnter(skill.name)} onMouseLeave={() => this.skillHoverLeave(skill.name)}>
             <Row style={(side === 'left') ? this.state.rowStylingLeft : this.state.rowStylingRight}>
-                        <Col style={this.state.skillNameColStyle} xs={12} sm={12} md={6} lg={6}>
-                            <p className="skillName">{skill.name}</p>
-                        </Col>
-                        <Col xs={12} sm={12} md={6} lg={6}>
-                            <div className="circlesContainer">
-                                {this.getDots(skill.name,score--)}
-                                {this.getDots(skill.name,score--)}
-                                {this.getDots(skill.name,score--)}
-                                {this.getDots(skill.name,score--)}
-                                {this.getDots(skill.name,score--)}
-                            </div>
-                        </Col>
-                    </Row>
-                </div>)
+                <Col style={this.state.skillNameColStyle} xs={12} sm={12} md={6} lg={6}>
+                    <p className="skillName">{skill.name}</p>
+                </Col>
+                <Col xs={12} sm={12} md={6} lg={6}>
+                    <div className="circlesContainer">
+                        {this.getDots(skill.name, score--)}
+                        {this.getDots(skill.name, score--)}
+                        {this.getDots(skill.name, score--)}
+                        {this.getDots(skill.name, score--)}
+                        {this.getDots(skill.name, score--)}
+                    </div>
+                </Col>
+            </Row>
+        </div>)
     }
     render() {
         return (
@@ -135,10 +132,10 @@ class Skills extends Component {
                 </div>
                 <Row className="skillsRow">
                     <Col xs={6} sm={6} md={6} lg={6}>
-                        {skills.slice(0,Math.ceil(skills.length / 2)).map((skill) => this.renderSkill(skill, 'left'))}
+                        {skills.slice(0, Math.ceil(skills.length / 2)).map((skill) => this.renderSkill(skill, 'left'))}
                     </Col>
                     <Col xs={6} sm={6} md={6} lg={6}>
-                        {skills.slice(Math.ceil(skills.length / 2),skills.length).map((skill) => this.renderSkill(skill, 'right'))}
+                        {skills.slice(Math.ceil(skills.length / 2), skills.length).map((skill) => this.renderSkill(skill, 'right'))}
                     </Col>
                 </Row>
             </div>

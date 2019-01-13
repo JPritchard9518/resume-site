@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../assets/styles/Education.css';
 import { Row, Col } from 'react-flexbox-grid';
-const courses = ['advanced programming','computer architecture and organization','theory of programming languages','server-side programming','calculus with matlab','algorithms and data structures','database system concepts','operating systems','studies in information security','introduction to statistical analysis','introduction to linux','network architecture and protocol','modern cryptography','calculus 1 & 2','linear algebra','discrete mathematics','software engineering']
+const courses = ['advanced programming', 'computer architecture and organization', 'theory of programming languages', 'server-side programming', 'calculus with matlab', 'algorithms and data structures', 'database system concepts', 'operating systems', 'studies in information security', 'introduction to statistical analysis', 'introduction to linux', 'network architecture and protocol', 'modern cryptography', 'calculus 1 & 2', 'linear algebra', 'discrete mathematics', 'software engineering']
 class Education extends Component {
     constructor(props) {
         super(props)
@@ -15,14 +15,14 @@ class Education extends Component {
         var leftColClass = '';
         var rightColClass = '';
         var workRowClass = '';
-        if (['sm','md','lg'].indexOf(this.props.bootstrapBreakpoint) > -1) {
+        if (['sm', 'md', 'lg'].indexOf(this.props.bootstrapBreakpoint) > -1) {
             leftColClass = "column left";
             rightColClass = 'column right'
         } else {
             leftColClass = "column right centerText"
             rightColClass = 'column right centerText'
         }
-        if (['sm','md','lg'].indexOf(this.props.bootstrapBreakpoint) > -1) {
+        if (['sm', 'md', 'lg'].indexOf(this.props.bootstrapBreakpoint) > -1) {
             workRowClass = "workRow"
         } else {
             workRowClass = "workRowSmall"
@@ -46,8 +46,7 @@ class Education extends Component {
                     </Col>
                     <Col className={this.state.rightColClass} xs={12} sm={6} md={6} lg={6}>
                         <p className="graduation">Computer Science</p>
-                        <p className="graduation">Expected Graduation:</p>
-                        <p className="graduation">MAY 2018</p>
+                        <p className="graduation">Class of 2018</p>
                     </Col>
                 </Row>
                 <Row className={this.state.workRowClass}>
@@ -62,7 +61,7 @@ class Education extends Component {
                 <p className="header">Relevant Courses</p>
                 <hr />
                 <div className="courseContainer">
-                    
+
                     <Row>
                         <Col xs={12} sm={12} md={4} lg={4}>
                             <div key={courses[i]} className="courseTile">
