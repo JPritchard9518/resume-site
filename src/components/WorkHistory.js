@@ -24,7 +24,7 @@ var sites = {
         url: "",
         title: "Elasticsearch and Kibana",
         image: "data:image/png;base64,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",
-        body: "One of my first major solo projects after starting full-time with the ACLJ was building an Elasticsearch and Kibana docker container to be deployed on AWS Elasticbeanstalk. The Elasticsearch instance is used to generate reports in real-time based on how members are engaging with the organization, how donations come into the organization, and traffic that comes to the website. These reports have been used to inform and guide the organization going forward.",
+        body: "One of my first major solo projects after starting full-time with the ACLJ was building an Elasticsearch and Kibana docker container to be deployed on AWS Elastic Beanstalk. The Elasticsearch instance is used to generate reports in real-time based on how members are engaging with the organization, how donations come into the organization, and traffic that comes to the website. These reports have been used to inform and guide the organization going forward.",
         languages: ["Elasticsearch", "Kibana", "AWS", "Docker", "Git"]
     },
     "admin": {
@@ -195,7 +195,7 @@ class WorkHistory extends Component {
                         <Col xs={12} sm={12} md={4} lg={4}>
                             <div className="projectTile" style={{ backgroundColor: '#FFF' }} onMouseOver={() => this.onHover("EK")} onMouseOut={() => this.offHover("EK")} onClick={() => this.handleModalShow("EK")}>
                                 <div ref="EK" className="hoverTile" style={{ padding: '5px' }}><p className="hoverTileText">Elasticsearch & Kibana</p></div>
-                                <img alt="Elasticsearch/Kibana" className="tileImage" style={{ maxWidth: '90%' }} src={sites['EK'].image} />
+                                <img alt="Elasticsearch - Kibana" className="tileImage" style={{ maxWidth: '90%' }} src={sites['EK'].image} />
                             </div>
                         </Col>
                     </Row>
@@ -219,7 +219,7 @@ class WorkHistory extends Component {
                             </div>
                         </Col>
                     </Row>
-                    <a className="resumeDownload" href="./assets/documents/Justin Pritchard Resume.pdf" download>Download Resume PDF</a>
+                    <a className="resumeDownload" href="./assets/documents/Justin Pritchard Resume.pdf" download>Download Resume (PDF)</a>
                 </div>
                 <Modal show={this.state.show} onHide={this.handleModalClose}>
                     <Modal.Header closeButton>

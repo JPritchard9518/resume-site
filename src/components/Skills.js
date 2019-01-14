@@ -32,7 +32,7 @@ var skills = [
         name: 'git',
         score: 3.5
     }, {
-        name: 'elasticsearch/kibana',
+        name: 'elasticsearch - kibana',
         score: 3.5
     }, {
         name: 'iOS',

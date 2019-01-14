@@ -32,7 +32,7 @@ class Bio extends Component {
                         </p>
                     </Col>
                 </Row>
-                <p className="header">My Family</p>
+                <p className="header">MY FAMILY</p>
                 <hr />
                 <Row>
                     <Col style={{ top: (this.props.bootstrapBreakpoint === 'xs') ? 0 : '-75px', padding: '20px' }} xs={12} sm={12} md={4} lg={4}>

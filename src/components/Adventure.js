@@ -63,6 +63,10 @@ const images = [
         title: "Colorado - Great Sand Dunes National Park",
     },
     {
+        img: "/assets/images/adventure/Mountain_Biking.jpg",
+        title: "Colorado - Georgia Pass"
+    },
+    {
         img: "/assets/images/adventure/Costa_Rica_Zip_Line_2.jpeg",
         title: "Costa Rica",
     },
@@ -133,6 +137,10 @@ const images = [
     {
         img: "/assets/images/adventure/Spy_Rock.jpeg",
         title: "Virginia - Spy Rock",
+    },
+    {
+        img: "/assets/images/adventure/SnowFlex.jpg",
+        title: "Virginia - Skiing Snow Flex"
     },
     {
         img: "/assets/images/adventure/Fly_Fishing_1.jpeg",
@@ -242,10 +250,10 @@ class Adventure extends Component {
                         Me, my brother, and my father would often take trips to Colorado and Wyoming to go backpacking, hiking, fishing, mountain biking, and skiing.
                         When I was in middle school I became interested in fly-fishing. I got myself a rod and taught myself how to fish and
                         tie my own flies. Since then fishing has become my favorite activity. My favorite trips are backpacking into remote
-                        places where not many people have gone and the fishing is great. In 2013 my family moved to Virginia. I began to spend a lot of
+                        places where not many people have gone and the fish are big. In 2013 my family moved to Virginia. I began to spend a lot of
                         time in the Blue Ridge mountains hiking and fly-fishing for small brook trout in the Virginia mountain streams. My wife Charity
                         loves the outdoors and adventure just as much as I do. She is my best friend and favorite person to go on adventures with. I will forever be
-                        drawn to the outdoors and adventure.
+                        drawn to the outdoors and adventure. Below is a list of photos from trips that I have photos of.
                     </p>
                 </div>
                 <div className={classes.root}>
