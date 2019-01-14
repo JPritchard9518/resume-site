@@ -74,6 +74,7 @@ class Navigation extends Component {
                             <Nav>
                                 <li onClick={() => this.scrollTo(this.props.top)}><img alt="NavigationLogo" className="navLogoCondensed" src='./assets/images/logoWhite.png' /></li>
                                 <li className="nav-item" onClick={() => this.scrollTo(this.props.bio)}>ABOUT</li>
+                                <li className="nav-item" onClick={() => this.scrollTo(this.props.adventure)}>ADVENTURE</li>
                                 <li className="nav-item" onClick={() => this.scrollTo(this.props.whatIDo)}>WHAT I DO</li>
                                 <li className="nav-item" onClick={() => this.scrollTo(this.props.skills)}>SKILLS</li>
                                 {/* <li onClick={() => this.scrollTo(this.props.top)}><img alt="NavigationLogo" className="navLogo" src='./assets/images/logoWhite.png' /></li> */}
