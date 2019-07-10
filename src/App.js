@@ -95,7 +95,7 @@ class App extends Component {
         {/*Include footer with info about how this site was made. React, boostrap, etc.*/}
         <footer className="App-footer" style={{ backgroundColor: colors.black, }}>
           <img className="footerLogo" alt="footerImage" src='./assets/images/logoWhite.png' />
-          <p>This project was developed by Justin Pritchard using <a target="_blank" className="footerLink" href="https://reactjs.org/">React</a>.</p>
+          <p>This project was developed by Justin Pritchard using <a target="_blank" rel="noopener noreferrer" className="footerLink" href="https://reactjs.org/">React</a>.</p>
         </footer>
       </div>
     );

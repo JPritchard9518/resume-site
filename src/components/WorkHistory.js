@@ -47,7 +47,7 @@ var sites = {
         url: "https://itunes.apple.com/us/app/aclj/id501155881?mt=8",
         title: "ACLJ Mobile App",
         image: "http://a2cf0d5e15d9d69049aa-596a7347bb8d75314ef5b080382defe2.r58.cf2.rackcdn.com/graphics/ACLJ_Logo_Wide.png",
-        body: "ACLJ Mobile was one of my first major projects with the ACLJ team. At the time of the project the only programming class I had taken at school was intro to programming. This project really stretched me as it taught me to study, research, learn, and work with a team. Recently I was given the opportunity to completely re-write the application for iOS and Android by myself and implement numerous performance improvements and other features.",
+        body: "The ACLJ Mobile application was my first major solo project that I developed and deployed from start to finish. It includes a news feed with the organization's content, radio player, donations, push notifications, and much more. The application was developed for iOS and Android using React-Native.",
         languages: ['React-Native (iOS & Android)', 'JavaScript', 'MongoDB', 'Xcode', 'Android Studio', 'Git']
     },
     "glow": {

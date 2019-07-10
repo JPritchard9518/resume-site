@@ -253,7 +253,7 @@ class Adventure extends Component {
                         places where not many people have gone and the fish are big. In 2013 my family moved to Virginia. I began to spend a lot of
                         time in the Blue Ridge mountains hiking and fly-fishing for small brook trout in the Virginia mountain streams. My wife Charity
                         loves the outdoors and adventure just as much as I do. She is my best friend and favorite person to go on adventures with. I will forever be
-                        drawn to the outdoors and adventure. Below is a list of photos from trips that I have photos of.
+                        drawn to the outdoors and adventure. Below is a list of photos from some of my favorite places.
                     </p>
                 </div>
                 <div className={classes.root}>
