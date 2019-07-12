@@ -59,6 +59,34 @@ const images = [
         title: "Arizona - Grand Canyon",
     },
     {
+        img: "/assets/images/adventure/CO-1.jpeg",
+        title: "Colorado - Rocky Mountain National Park",
+    },
+    {
+        img: "/assets/images/adventure/CO-2.jpeg",
+        title: "Colorado - Rocky Mountain National Park",
+    },
+    {
+        img: "/assets/images/adventure/CO-3.jpeg",
+        title: "Colorado",
+    },
+    {
+        img: "/assets/images/adventure/CO-4.jpeg",
+        title: "Colorado - Hanging Lake",
+    },
+    {
+        img: "/assets/images/adventure/CO-5.jpeg",
+        title: "Colorado - Hanging Lake",
+    },
+    {
+        img: "/assets/images/adventure/CO-6.jpeg",
+        title: "Colorado - Hanging Lake",
+    },
+    {
+        img: "/assets/images/adventure/CO-7.jpeg",
+        title: "Colorado - Independence Pass",
+    },
+    {
         img: "/assets/images/adventure/CO_Sand_Dunes.jpg",
         title: "Colorado - Great Sand Dunes National Park",
     },
@@ -198,10 +226,6 @@ const images = [
         img: "/assets/images/adventure/WY_Repelling_1.jpeg",
         title: "Wyoming",
     },
-    {
-        img: "/assets/images/adventure/WY_Repelling_2.jpeg",
-        title: "Wyoming",
-    },
 ]
 
 class Adventure extends Component {
@@ -251,9 +275,8 @@ class Adventure extends Component {
                         When I was in middle school I became interested in fly-fishing. I got myself a rod and taught myself how to fish and
                         tie my own flies. Since then fishing has become my favorite activity. My favorite trips are backpacking into remote
                         places where not many people have gone and the fish are big. In 2013 my family moved to Virginia. I began to spend a lot of
-                        time in the Blue Ridge mountains hiking and fly-fishing for small brook trout in the Virginia mountain streams. My wife Charity
-                        loves the outdoors and adventure just as much as I do. She is my best friend and favorite person to go on adventures with. I will forever be
-                        drawn to the outdoors and adventure. Below is a list of photos from some of my favorite places.
+                        time in the Blue Ridge mountains hiking and fly-fishing for small brook trout in the Virginia mountain streams. I will forever be
+                        drawn to the outdoors and adventure. Below are some photos from some of my favorite places.
                     </p>
                 </div>
                 <div className={classes.root}>

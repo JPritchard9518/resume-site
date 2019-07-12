@@ -17,6 +17,9 @@ var skills = [
         name: 'mongodb',
         score: 4
     }, {
+        name: 'Swift',
+        score: 3.5
+    },{
         name: 'node.js',
         score: 3.5
     }, {
@@ -32,12 +35,9 @@ var skills = [
         name: 'git',
         score: 3.5
     }, {
-        name: 'elasticsearch - kibana',
-        score: 3.5
-    }, {
-        name: 'iOS',
-        score: 3
-    }, {
+    //     name: 'elasticsearch - kibana',
+    //     score: 3.5
+    // }, {
         name: 'google analytics',
         score: 3
     },/*{

@@ -136,25 +136,26 @@ class WorkHistory extends Component {
                 <hr />
                 <Row className={this.state.workRowClass}>
                     <Col className={this.state.leftColClass} xs={12} sm={12} md={6} lg={6}>
-                        <p className="workName">American Center for Law and Justice (ACLJ)</p>
-                        <p className="workLocation">Nashville, TN</p>
-                        <p className="workTimeFrame">2015 - June 2018</p>
-                    </Col>
-                    <Col className="column right" xs={12} sm={12} md={6} lg={6}>
-                        <p className="jobTitle">Web Development Intern</p>
-                        <p className="description">I intered with the ACLJ for 3 years learning from their developers to create web and mobile applications. That period of time consisted of website creation from start to finish, website maintenance, mobile application development, data analytics/reporting, and database management. I worked our of their Nashville office for 3 summers, and remotely while being a full-time student.</p>
-                        {/* <p className="description">I have 3 years experience with the ACLJ learning from their developers to create web and mobile applications. My time there has consisted of website creation from start to finish, website maintenance, mobile application development, data analytics/reporting, and database management. I worked out of the Nashville office for the past 3 summers, and remotely while at school.</p> */}
-                    </Col>
-                    <Col className={this.state.leftColClass} xs={12} sm={12} md={6} lg={6}>
+                    <p className="workName">American Center for Law and Justice (ACLJ)</p>
                         <p className="workLocation">Nashville, TN</p>
                         <p className="workTimeFrame">June 2018 - Current</p>
                     </Col>
                     <Col className="column right" xs={12} sm={12} md={6} lg={6}>
                         <p className="jobTitle">Junior Developer/Data Analyst</p>
-                        <p className="description">In June of 2018 I was brought on full-time as part of the ACLJ's development team. Since that time I have created many custom reports for senior management, implemented feature requests for the website and admin website, and headlined other major projects. One of my first major tasks was implementing an Elasticsearch and Kibana Docker container on AWS to generate reports based on the organization's member engagement, donations, and site traffic. In September of 2018 I was given the task of completely rewriting the organization's mobile application for iOS, and for the first time implementing the application for Android. Both applications were written using React-Native.</p>
+                        <p className="description">In June of 2018 I was hired full-time with the ACLJ to be part of their development team. Since that time I have headlined many projects, implemented feature requests for the website and admin website, and created custom reports for senior management. One of my first major tasks was implementing an Elasticsearch and Kibana Docker container on AWS to generate reports based on the organization's member engagement, donations, and site traffic. In September of 2018 I was given the task of completely rewriting the organization's mobile application for iOS, and for the first time implementing the application for Android. Both applications were written using React-Native.</p>
                     </Col>
+                    <Col className={this.state.leftColClass} xs={12} sm={12} md={6} lg={6}>
+                        <p className="workLocation">Nashville, TN - Remote</p>
+                        <p className="workTimeFrame">2015 - June 2018</p>
+                    </Col>
+                    <Col className="column right" xs={12} sm={12} md={6} lg={6}>
+                        <p className="jobTitle">Web Development Intern</p>
+                        <p className="description">I intered with the ACLJ for 3 years before being brought on full-time learning from their developers to create web and mobile applications. That period of time consisted of website creation from start to finish, website maintenance, mobile application development, data analytics/reporting, and database management. I worked out of their Nashville office for 3 summers, and remotely while being a full-time student during the school year.</p>
+                        {/* <p className="description">I have 3 years experience with the ACLJ learning from their developers to create web and mobile applications. My time there has consisted of website creation from start to finish, website maintenance, mobile application development, data analytics/reporting, and database management. I worked out of the Nashville office for the past 3 summers, and remotely while at school.</p> */}
+                    </Col>
+                    
                 </Row>
-                <p className="header" style={{ marginTop: '30px' }}>Projects</p>
+                <p className="header" style={{ marginTop: '30px' }}>Major Projects</p>
                 <hr />
                 <div style={{ maxWidth: '800px', margin: '0 auto', paddingTop: '30px' }}>
                     <Row className="projectRow">

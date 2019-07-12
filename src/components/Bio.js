@@ -23,7 +23,7 @@ class Bio extends Component {
                     </Col>
                     <Col xs={12} sm={12} md={8} lg={8}>
                         <p className="aboutMeText">
-                            My name is Justin Pritchard, I am 23 years old. I have within me a deep desire to
+                            My name is Justin Pritchard, I am 23 years old. I am passionate about the outdoors and how technology can be used to enhance our experience of nature. I have within me a deep desire to
                             build and create. My skills are broad: front end to back end, user interfaces to data analytics.
                             I enjoy every aspect of a project and building web-sites and mobile apps from start to finish. I
                             love to develop professional applications for digital platforms using the best practices and technology
